@@ -1,26 +1,27 @@
-# Laravel 5.2 Multi-Auth
+# Laravel PHP Framework
 
-[![GitHub release](https://img.shields.io/badge/release-1.0-brightgreen.svg)]()
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-A basic example of how to user the built in Multi-Auth to allow logging in of both admin and end users.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-## User Models
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-Both the Admin and User models are under the ```App\Models``` namespace and the ```app\config\auth.php``` file has been updated to reflect this.
+## Official Documentation
 
-## Views
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-The Admin and User views have been seperated out, so they can be displayed independently and provide a noticeable difference between the look and feel to the site.
+## Contributing
 
-## Additional packages
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-The base package comes with the addition of the following packages:
-* barryvdh/laravel-debugbar
+## Security Vulnerabilities
 
-## Install
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-Please see [INSTALL](INSTALL.md) for more information on how to install.
+## License
 
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

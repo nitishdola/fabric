@@ -11,10 +11,10 @@
 |
  */
 
-Route::get('/', ['middleware' => 'web', function () {
-    return view('index');
-}]);
-
+// Route::get('/', ['middleware' => 'web', function () {
+//     return view('index');
+// }]);
+Route::get('/', ['middleware' => 'web', 'uses' => '']);
 /*
 |--------------------------------------------------------------------------
 | Application Routes
